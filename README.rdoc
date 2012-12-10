@@ -1,0 +1,26 @@
+= Purpose
+
+Will automatically ensure all links to the current page have "current"
+as a class name. This allows you to easily style the current selected
+page with CSS without having to encode logic to add the class into
+your templates
+
+= Usage
+
+Add the following to your Gemfile
+
+    gem 'rack_current_page'
+
+Add it as middleware:
+
+    use Rack::CurrentPage
+
+If you want a different class simply specify as the second argument.
+For example if you want "active" to be the class added:
+
+    use Rack::CurrentPage, 'active'
+
+= Credit
+
+This gem was developed by Eric Anderson (http://pixelwareinc.com) while
+doing work under Red Tusk Studios (http://redtusk.com).

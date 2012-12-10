@@ -1,0 +1,30 @@
+PATH
+  remote: .
+  specs:
+    rack_current_page (0.0.1)
+      rack
+      rack_replace
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    columnize (0.3.6)
+    debugger (1.2.2)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.1.1)
+      debugger-ruby_core_source (~> 1.1.5)
+    debugger-linecache (1.1.2)
+      debugger-ruby_core_source (>= 1.1.1)
+    debugger-ruby_core_source (1.1.5)
+    rack (1.4.1)
+    rack_replace (0.0.1)
+      rack
+    rake (10.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  debugger
+  rack_current_page!
+  rake
