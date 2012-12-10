@@ -9,7 +9,9 @@ class Rack::CurrentPage::Link
   # Will determine if the path given is the destination of the link
   def points_to? path
     href = @tag.scan(/href=\"([^"]*)\"/)[0][0]
-    href = URI(href).send :path_query unless href.start_with? '/'
+    unless href.start_with? '/'
+      href = URI(href).send :path_query rescue nil
+    end
     href == path
   end
 

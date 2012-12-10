@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rack_current_page (0.0.1)
+    rack_current_page (0.0.2)
       rack
       rack_replace
 
@@ -17,7 +17,7 @@ GEM
       debugger-ruby_core_source (>= 1.1.1)
     debugger-ruby_core_source (1.1.5)
     rack (1.4.1)
-    rack_replace (0.0.1)
+    rack_replace (0.0.3)
       rack
     rake (10.0.2)
 
