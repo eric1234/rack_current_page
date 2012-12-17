@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rack_current_page (0.0.2)
+    rack_current_page (0.0.3)
       rack
       rack_replace
 
